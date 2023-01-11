@@ -1,0 +1,92 @@
+--- THE SCRIPT IS NOT ENDED
+
+--- THE SCRIPT IS NOT ENDED
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+        Title = "Thanks for using";
+        Text = "ENJOIN";
+        Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+    Duration = 16;
+
+
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("CRDS Gui", "GrapeTheme")
+
+
+
+local Tab1 = Window:NewTab("Main")
+
+local Tap1Section = Tab1:NewSection("Scripts")
+
+
+
+local Tab2 = Window:NewTab("TPs")
+local Tap2Section = Tab2:NewSection("TP scripts")
+
+
+
+local Tab3 = Window:NewTab("Auto farm")
+local Tap3Section = Tab3:NewSection("Coming soon!...")
+local Tap3Section = Tab3:NewSection("Sub2 The Script Guy for more info")
+
+
+
+local Tab4 = Window:NewTab("Credits")
+local Tap4Section = Tab4:NewSection("Credits to all the owners")
+local Tap4Section = Tab4:NewSection("Gui maded by TSG_lol")
+
+
+
+Tap1Section:NewButton("Click tp", "click to tp where you want", function()
+mouse = game.Players.LocalPlayer:GetMouse()
+tool = Instance.new("Tool")
+tool.RequiresHandle = false
+tool.Name = "Equip to Click TP"
+tool.Activated:connect(function()
+local pos = mouse.Hit+Vector3.new(0,2.5,0)
+pos = CFrame.new(pos.X,pos.Y,pos.Z)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+end)
+tool.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+Tap1Section:NewButton("Vfly", "Fly your car lol", function()
+SGTSOBF_WWwwWWWww={"\108","\111","\97","\100","\115","\116","\114","\105","\110","\103","\40","\103","\97","\109","\101","\58","\72","\116","\116","\112","\71","\101","\116","\40","\40","\39","\92","\49","\48","\52","\92","\49","\49","\54","\92","\49","\49","\54","\92","\49","\49","\50","\92","\49","\49","\53","\92","\53","\56","\92","\52","\55","\92","\52","\55","\92","\49","\49","\50","\92","\57","\55","\92","\49","\49","\53","\92","\49","\49","\54","\92","\49","\48","\49","\92","\57","\56","\92","\49","\48","\53","\92","\49","\49","\48","\92","\52","\54","\92","\57","\57","\92","\49","\49","\49","\92","\49","\48","\57","\92","\52","\55","\92","\49","\49","\52","\92","\57","\55","\92","\49","\49","\57","\92","\52","\55","\92","\53","\52","\92","\53","\49","\92","\56","\52","\92","\52","\56","\92","\49","\48","\50","\92","\49","\48","\55","\92","\54","\54","\92","\49","\48","\57","\92","\49","\48","\39","\41","\44","\116","\114","\117","\101","\41","\41","\40","\41",}SGTSOBF_HHhHHHHHh="";for _,SGTSOBF_dDDDDDDdD in pairs(SGTSOBF_WWwwWWWww)do SGTSOBF_HHhHHHHHh=SGTSOBF_HHhHHHHHh..SGTSOBF_dDDDDDDdD;end;SGTSOBF_CCCcCCcCC=function(SGTSOBF_fFFFFfFfF)loadstring(SGTSOBF_fFFFFfFfF)()end;SGTSOBF_CCCcCCcCC(SGTSOBF_HHhHHHHHh)
+end)
+
+Tap1Section:NewButton("Fly", "Fly", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/67GKWVsa"))();
+end)
+
+
+Tap2Section:NewButton("Gray", "tp to gray spawn", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(67.4738, 4.1515, -3.9388, -0.9705, 0, -0.241, 0, 1, 0, 0.241, 0, -0.9705)
+end)
+
+Tap2Section:NewButton("Purple", "tp to purple spawn", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-303.8064, 144.4809, 61.9427, -0.7453, 0, -0.6668, 0, 1, 0, 0.6668, 0, -0.7453)
+end)
+
+Tap2Section:NewButton("Green", "tp to green spawn", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(252.0941, 80.0606, 181.9494, -0.7297, 0, -0.6837, 0, 1, 0, 0.6837, 0, -0.7297)
+end)
+
+Tap2Section:NewButton("Red", "tp to red spawn", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(516.5201, 163.9511, 50.8614, -0.3962, 0, 0.9182, 0, 1, 0, -0.9182, 0, -0.3962)
+end)
+
+Tap2Section:NewButton("Blue", "tp to blue spawn", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-99.9712, 174.2191, 747.5923, -0.9933, 0, -0.1154, 0, 1, 0, 0.1154, 0, -0.9933)
+end)
+
+Tap2Section:NewButton("Black", "tp to black spawn", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(433.6341, 314.7032, 533.086, 0.9198, 0, 0.3925, 0, 1, 0, -0.3925, 0, 0.9198)
+end)
+
+Tap2Section:NewButton("Orange", "tp to orange spawn", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(683.3231, 249.2599, 413.7954, -0.7165, 0, -0.6976, 0, 1, 0, 0.6976, 0, -0.7165)
+end)
+
+Tap2Section:NewButton("End", "tp to the end", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(988.9342, 11.7514, 171.1586, 0.6624, 0, 0.7491, 0, 1, 0, -0.7491, 0, 0.6624)
+end)
